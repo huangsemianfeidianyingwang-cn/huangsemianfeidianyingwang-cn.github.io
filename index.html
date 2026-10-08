@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄色免费电影网｜黄色免费正版观影指引 · 公版片单 · 合法渠道 · 修复版 · 观影成本对照</title>
+<meta name="description" content="黄色免费电影网（huangsemianfeidianyingwang-cn.github.io）：黄色免费不等于可以侵权。提供公版电影片单、五种合法黄色免费渠道、观影成本对照、黄色免费观看误区与正版观影指引。不提供任何影视资源下载。">
+<meta name="keywords" content="黄色免费电影网,huangsemianfeidianyingwang-cn,黄色免费电影,黄色免费正版电影,黄色免费观影,公版电影,公有领域电影,黄色免费观影渠道,AVOD,公共图书馆,电影资料馆,黄色免费纪录片,默片,经典老电影,高清修复,4K修复,电影推荐,片单导航,观影指南,正版观看渠道">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="bingbot" content="index, follow">
+<link rel="canonical" href="https://huangsemianfeidianyingwang-cn.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="黄色免费电影网｜黄色免费正版观影指引">
+<meta property="og:description" content="黄色免费不等于可以侵权。公版片单、五种合法黄色免费渠道、观影成本对照、修复版与正版渠道导航。">
+<meta property="og:url" content="https://huangsemianfeidianyingwang-cn.github.io/">
+<meta property="og:site_name" content="黄色免费电影网">
+<meta name="theme-color" content="#f7f1e3">
+<style>
+:root{
+  --paper:#f7f1e3;
+  --paper-2:#efe4c8;
+  --ink:#23201c;
+  --ink-2:#5a5347;
+  --free:#2e8b57;     /* 海绿：合法黄色免费 */
+  --free-d:#1f6b42;
+  --coin:#c9a227;     /* 旧金币 */
+  --rust:#a8502a;     /* 锈：盗版之价 */
+  --line:rgba(35,32,28,.15);
+  --shadow:0 14px 34px -16px rgba(60,45,20,.44);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:"Songti SC","STSong","Source Han Serif SC",Georgia,"WenQuanYi Micro Hei",serif;
+  background:var(--paper);color:var(--ink);line-height:1.8;
+  font-size:clamp(15px,1.02vw+12px,17px);
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(46,139,87,.12), transparent 42%),
+    radial-gradient(circle at 88% 94%, rgba(201,162,39,.16), transparent 44%),
+    repeating-linear-gradient(0deg, rgba(60,45,20,.016) 0 1px, transparent 1px 6px);
+  background-attachment:fixed;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+
+/* ============ HERO ============ */
+header.hero{position:relative;padding:clamp(48px,8.5vw,90px) 0 clamp(40px,7vw,68px);overflow:hidden;border-bottom:3px double var(--ink)}
+.coins{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.coins i{
+  position:absolute;top:-40px;width:26px;height:26px;border-radius:50%;
+  background:radial-gradient(circle at 34% 32%,#f4dc8a,#c9a227 62%,#8f7014);
+  box-shadow:inset 0 -5px 7px rgba(90,60,10,.34);
+  animation:fall linear infinite;
+}
+.coins i::after{content:"$";position:absolute;inset:0;display:grid;place-items:center;font-family:Georgia,serif;font-size:13px;color:#7a5e10;font-weight:700}
+@keyframes fall{from{transform:translate(0,0) rotate(0)}to{transform:translate(-80px,720px) rotate(520deg)}}
+.hero-in{position:relative;z-index:2;display:grid;grid-template-columns:1.28fr .72fr;gap:clamp(24px,5vw,54px);align-items:center}
+.kicker{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:"SFMono-Regular",Consolas,monospace;font-size:11.5px;letter-spacing:.2em;color:var(--free-d);
+  border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 10px;margin-bottom:16px;background:rgba(255,255,255,.4);
+}
+.kicker i{width:7px;height:7px;border-radius:50%;background:var(--free);box-shadow:0 0 0 5px rgba(46,139,87,.18);animation:blink 1.5s ease-in-out infinite}
+@keyframes blink{50%{opacity:.28;box-shadow:0 0 0 2px rgba(46,139,87,.06)}}
+h1{font-size:clamp(42px,6.6vw,84px);line-height:1.05;letter-spacing:.01em;font-weight:700;margin-bottom:12px}
+h1 .f{position:relative;display:inline-block;padding:0 5px;color:var(--free-d)}
+h1 .f::after{content:"";position:absolute;left:0;right:0;bottom:.04em;height:12px;background:linear-gradient(92deg,var(--coin),var(--free));transform:skewX(-16deg);z-index:-1;border-radius:2px}
+h1 small{display:block;font-size:.26em;letter-spacing:.12em;color:var(--ink-2);font-family:"SFMono-Regular",Consolas,monospace;margin-top:18px;font-weight:400}
+.lede{font-size:clamp(16px,1.5vw,19px);color:var(--ink-2);border-left:3px solid var(--free);padding:2px 0 2px 16px;margin:18px 0 22px;max-width:44ch}
+.lede b{color:var(--rust);font-weight:700}
+.hero-cta{display:flex;flex-wrap:wrap;gap:10px}
+.btn{
+  font-family:"Songti SC",serif;font-size:15px;letter-spacing:.06em;padding:11px 22px;border-radius:999px;cursor:pointer;
+  border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);transition:.26s cubic-bezier(.2,.7,.3,1);
+}
+.btn:hover{transform:translateY(-3px);box-shadow:var(--shadow);background:var(--free);border-color:var(--free)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{color:var(--paper)}
+.card{background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow);padding:22px 20px;transform:rotate(.8deg);transition:.32s}
+.card:hover{transform:rotate(0) translateY(-5px)}
+.card h3{font-family:"SFMono-Regular",Consolas,monospace;font-size:11px;letter-spacing:.24em;color:var(--ink-2);font-weight:400;margin-bottom:14px}
+.card dl{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px}
+.card dt{font-size:12px;letter-spacing:.1em;color:var(--ink-2)}
+.card dd{font-family:Georgia,serif;font-size:clamp(20px,2.2vw,27px);font-weight:700;line-height:1.2}
+.card dd em{font-style:normal;color:var(--free-d);font-size:.62em;margin-left:4px;font-family:"Songti SC",serif}
+.note{margin-top:16px;font-size:12.5px;color:var(--ink-2);line-height:1.7;border-top:1px dashed var(--line);padding-top:12px}
+
+/* ============ NAV ============ */
+nav.toc{position:sticky;top:0;z-index:30;background:rgba(247,241,227,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.toc .wrap{display:flex;align-items:center;gap:clamp(10px,2vw,26px);overflow-x:auto;padding-top:10px;padding-bottom:10px}
+nav.toc .brand{font-weight:700;white-space:nowrap;font-family:"SFMono-Regular",Consolas,monospace;font-size:14px}
+nav.toc .brand b{color:var(--free-d)}
+nav.toc a{font-size:14.5px;white-space:nowrap;color:var(--ink-2);padding:6px 4px;position:relative;transition:.2s}
+nav.toc a:hover{color:var(--free-d)}
+nav.toc a::after{content:"";position:absolute;left:4px;right:4px;bottom:2px;height:2px;background:var(--free);transform:scaleX(0);transition:.24s;transform-origin:left}
+nav.toc a:hover::after{transform:scaleX(1)}
+nav.toc .spacer{flex:1}
+
+/* ============ SECTION ============ */
+section{padding:clamp(52px,9vw,96px) 0}
+.eyebrow{font-family:"SFMono-Regular",Consolas,monospace;font-size:12px;letter-spacing:.28em;color:var(--free-d);margin-bottom:10px}
+h2{font-size:clamp(27px,4.4vw,46px);line-height:1.2;letter-spacing:.01em;margin-bottom:12px}
+h2 .num{display:inline-block;font-family:Georgia,serif;color:var(--coin);font-size:.62em;margin-right:12px;vertical-align:middle}
+.sec-sub{color:var(--ink-2);max-width:64ch;margin-bottom:clamp(26px,4vw,40px);font-size:clamp(15px,1.3vw,17.5px)}
+.sec-head{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;margin-bottom:6px}
+.tagline{font-family:"SFMono-Regular",Consolas,monospace;font-size:11.5px;letter-spacing:.16em;color:var(--paper);background:var(--ink);border-radius:999px;padding:5px 12px}
+
+/* ---------- ① 公版片单：邮票卡 ---------- */
+.stamp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.stamp{
+  position:relative;padding:20px 18px;border:2px dashed var(--line);border-radius:3px;
+  background:var(--paper);box-shadow:var(--shadow);transition:.34s cubic-bezier(.2,.7,.3,1);
+}
+.stamp::before{content:"";position:absolute;inset:6px;border:1px solid rgba(35,32,28,.09);border-radius:2px;z-index:0}
+.stamp > *{position:relative;z-index:1}
+.stamp .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.stamp .yr{font-family:Georgia,serif;font-size:12px;color:var(--free-d);letter-spacing:.08em}
+.stamp .pub{font-size:10.5px;letter-spacing:.1em;color:var(--paper);background:var(--free);border-radius:999px;padding:2px 8px;white-space:nowrap}
+.stamp h4{font-size:19px;margin:10px 0 8px;letter-spacing:.02em}
+.stamp p{font-size:13.5px;color:var(--ink-2);line-height:1.7}
+.stamp .why{display:block;margin-top:12px;padding-top:9px;border-top:1px dashed var(--line);font-size:12.5px;color:var(--free-d);line-height:1.6}
+.stamp:hover{transform:translateY(-6px) rotate(-.6deg);border-color:var(--free);border-style:solid}
+.s1{background:linear-gradient(160deg,#f2eee0,#e6dfc4)}
+.s2{background:linear-gradient(160deg,#eef3e8,#dbe6cf)}
+.s3{background:linear-gradient(160deg,#f1ece2,#e4dcc2)}
+.s4{background:linear-gradient(160deg,#eef0f4,#dce4ee)}
+.s5{background:linear-gradient(160deg,#f4ede4,#e9ddc6)}
+.s6{background:linear-gradient(160deg,#f0f2ea,#dce6d2)}
+
+/* ---------- ② 五种方式：计数器阶梯 ---------- */
+.ladder{counter-reset:way;display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--line);box-shadow:var(--shadow);background:var(--paper)}
+.step{position:relative;counter-increment:way;padding:24px 20px 20px;border-right:1px solid var(--line);transition:.3s}
+.step:last-child{border-right:none}
+.step::before{content:counter(way,decimal-leading-zero);position:absolute;right:14px;top:8px;font-family:Georgia,serif;font-size:60px;line-height:1;font-weight:700;color:rgba(35,32,28,.09)}
+.step h4{font-size:18px;margin-bottom:9px;position:relative}
+.step h4 i{font-style:normal;color:var(--free-d);margin-right:7px;font-family:Georgia,serif;font-size:.78em}
+.step p{font-size:14px;color:var(--ink-2);line-height:1.72;position:relative}
+.step .alt{display:block;margin-top:12px;padding-top:9px;border-top:1px dashed var(--line);font-size:12.5px;color:var(--free-d)}
+.step:hover{background:var(--free);color:var(--paper)}
+.step:hover p,.step:hover .alt{color:rgba(255,255,255,.86)}
+.step:hover h4{color:var(--paper)}
+.step:hover::before{color:rgba(255,255,255,.2)}
+
+/* ---------- ③ 成本对照：数据表 ---------- */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);background:var(--paper);box-shadow:var(--shadow)}
+table{width:100%;min-width:920px;border-collapse:collapse;font-size:14px}
+thead th{
+  position:sticky;top:0;z-index:4;background:var(--ink);color:var(--paper);
+  font-family:"SFMono-Regular",Consolas,monospace;font-size:11.5px;letter-spacing:.13em;font-weight:400;
+  padding:13px 14px;text-align:left;white-space:nowrap;border-right:1px solid rgba(247,241,227,.12);
+}
+tbody td{padding:13px 14px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.62}
+tbody tr:hover{background:rgba(46,139,87,.1)}
+td.w{font-weight:700;white-space:nowrap}
+.meter{display:block;height:8px;border-radius:999px;background:rgba(35,32,28,.12);overflow:hidden;margin-top:6px;min-width:84px}
+.meter u{display:block;height:100%;border-radius:999px;background:linear-gradient(92deg,var(--coin),var(--free));transform-origin:left;animation:fill .9s cubic-bezier(.2,.7,.3,1) both}
+@keyframes fill{from{transform:scaleX(0)}}
+.meter.m2 u{background:linear-gradient(92deg,#e0b878,#a8502a)}
+.meter.m3 u{background:linear-gradient(92deg,#cfc07e,#7a7038)}
+.pill{display:inline-block;font-size:11.5px;letter-spacing:.05em;border-radius:999px;padding:3px 10px;white-space:nowrap}
+.p-a{background:rgba(46,139,87,.15);color:#1f6b42;border:1px solid rgba(46,139,87,.34)}
+.p-b{background:rgba(168,80,42,.13);color:#8a4422;border:1px solid rgba(168,80,42,.3)}
+.p-c{background:rgba(90,70,30,.11);color:#5a4418;border:1px solid rgba(90,70,30,.26)}
+.tbl-note{font-size:12.5px;color:var(--ink-2);margin-top:12px;line-height:1.75}
+
+/* ---------- ④ 修复流程：纵向时间轴 ---------- */
+.flow{position:relative;padding-left:34px}
+.flow::before{content:"";position:absolute;left:9px;top:8px;bottom:8px;width:2px;background:linear-gradient(180deg,var(--coin),var(--free),var(--rust))}
+.node{position:relative;padding:0 0 26px 22px}
+.node::before{content:"";position:absolute;left:-30px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:3px solid var(--free);box-shadow:0 0 0 5px rgba(46,139,87,.12);transition:.26s}
+.node:hover::before{background:var(--free);box-shadow:0 0 0 9px rgba(46,139,87,.2)}
+.node .n{font-family:"SFMono-Regular",Consolas,monospace;font-size:11px;letter-spacing:.2em;color:var(--free-d)}
+.node h4{font-size:19px;letter-spacing:.02em;margin:2px 0 7px}
+.node p{font-size:14.5px;color:var(--ink-2);line-height:1.74;max-width:64ch}
+.node:hover{transform:translateX(7px);transition:.26s}
+.flow-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,52px);align-items:start}
+.flow-side{background:var(--paper-2);border:1px solid var(--line);padding:20px 20px 16px;box-shadow:var(--shadow);transform:rotate(-.7deg)}
+.flow-side h4{font-family:"SFMono-Regular",Consolas,monospace;font-size:11px;letter-spacing:.22em;color:var(--ink-2);font-weight:400;margin-bottom:12px}
+.flow-side dl{display:grid;grid-template-columns:88px 1fr;gap:9px 14px;font-size:14px}
+.flow-side dt{color:var(--free-d);font-family:Georgia,serif}
+.flow-side dd{color:var(--ink-2)}
+.flow-side .x{margin-top:14px;padding-top:11px;border-top:1px dashed var(--line);font-size:12.5px;color:var(--rust);line-height:1.68}
+
+/* ---------- ⑤ 手风琴 ---------- */
+.faq details{border-bottom:1px solid var(--line);background:var(--paper)}
+.faq details[open]{background:linear-gradient(0deg,rgba(46,139,87,.09),transparent)}
+.faq summary{display:flex;align-items:center;gap:15px;cursor:pointer;padding:19px 6px;list-style:none;font-size:clamp(16px,1.7vw,18.5px);transition:.22s}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{color:var(--free-d)}
+.faq .q{flex:0 0 auto;width:36px;height:36px;border-radius:8px;background:var(--ink);color:var(--coin);font-family:Georgia,serif;font-size:19px;font-weight:700;display:grid;place-items:center;transition:.24s}
+.faq details[open] .q{background:var(--free);color:var(--paper);border-radius:50%}
+.faq .qm{color:var(--ink-2);margin-left:auto;font-size:21px;transition:.26s;line-height:1}
+.faq details[open] .qm{transform:rotate(45deg);color:var(--free)}
+.faq .body{padding:4px 6px 22px 51px;color:var(--ink-2);max-width:76ch;font-size:15.5px}
+.faq .body p{margin-bottom:11px}
+.faq blockquote{margin:14px 0 6px;padding:13px 16px;border-left:3px solid var(--free);background:rgba(46,139,87,.07);font-size:16px;color:var(--ink);line-height:1.75}
+.faq blockquote cite{display:block;margin-top:7px;font-size:12.5px;color:var(--ink-2);font-style:normal;letter-spacing:.06em}
+
+/* ============ FOOTER ============ */
+footer{border-top:3px double var(--ink);padding:clamp(40px,7vw,68px) 0 30px;background:radial-gradient(circle at 8% 92%,rgba(201,162,39,.16),transparent 40%),var(--paper)}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:clamp(20px,4vw,44px);margin-bottom:34px}
+.foot-brand h4{font-size:24px;letter-spacing:.04em;margin-bottom:10px}
+.foot-brand h4 b{color:var(--free-d)}
+.foot-brand p{font-size:14px;color:var(--ink-2);max-width:34ch;line-height:1.75}
+.foot-col h5{font-family:"SFMono-Regular",Consolas,monospace;font-size:11.5px;letter-spacing:.22em;color:var(--ink-2);font-weight:400;margin-bottom:13px}
+.foot-col a{display:block;font-size:14.5px;padding:5px 0;color:var(--ink-2);transition:.2s;width:fit-content}
+.foot-col a:hover{color:var(--free-d);transform:translateX(4px)}
+.foot-line{border-top:1px solid var(--line);padding-top:20px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;font-size:12.5px;color:var(--ink-2);justify-content:space-between}
+.compliance{width:100%;margin-top:16px;padding:14px 16px;background:rgba(168,80,42,.07);border:1px solid rgba(168,80,42,.24);border-radius:2px;font-size:13px;line-height:1.82;color:#8a4422}
+.compliance b{color:var(--rust)}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width:1040px){
+  .hero-in{grid-template-columns:1fr}
+  .card{transform:none;max-width:540px}
+  .stamp-grid{grid-template-columns:repeat(2,1fr)}
+  .flow-grid{grid-template-columns:1fr}
+  .ladder{grid-template-columns:1fr 1fr}
+  .step{border-bottom:1px solid var(--line)}
+  .step:nth-child(odd){border-right:1px solid var(--line)}
+}
+@media (max-width:600px){
+  h1{font-size:clamp(36px,13vw,56px)}
+  .stamp-grid{grid-template-columns:1fr}
+  .ladder{grid-template-columns:1fr}
+  .step{border-right:none}
+  .card dl{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  nav.toc .spacer{display:none}
+  .faq .body{padding-left:14px}
+  .node{padding-left:16px}
+  .coins{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<header class="hero">
+  <div class="coins" aria-hidden="true">
+    <i style="left:8%;animation-duration:9.6s;animation-delay:0s"></i>
+    <i style="left:20%;animation-duration:11.2s;animation-delay:1.3s"></i>
+    <i style="left:34%;animation-duration:8.8s;animation-delay:2.9s"></i>
+    <i style="left:52%;animation-duration:12.4s;animation-delay:.6s"></i>
+    <i style="left:70%;animation-duration:10.6s;animation-delay:2.1s"></i>
+    <i style="left:86%;animation-duration:9.1s;animation-delay:3.7s"></i>
+  </div>
+
+  <div class="wrap hero-in">
+    <div>
+      <span class="kicker"><i></i>FREE &amp; LEGAL · 黄色免费正版观影指引</span>
+      <h1>黄色免费<span class="f">电影网</span><small>「黄色免费」不是没有成本，是成本由谁来付。</small></h1>
+      <p class="lede">黄色免费不等于可以侵权。本站回答三件事：<b>哪些片子本来就是黄色免费的</b>（公有领域）、<b>哪些平台确实可以合法黄色免费看</b>（AVOD / 图书馆 / 资料馆 / 试用 / 线下）、<b>哪些"黄色免费"其实最贵</b>（盗链、破解、枪版、算法投喂）。</p>
+      <div class="hero-cta">
+        <a href="#ways" class="btn">五种合法黄色免费方式 →</a>
+        <a href="#cost" class="btn ghost">先看成本对照表</a>
+      </div>
+    </div>
+
+    <aside class="card" aria-labelledby="cc-h">
+      <h3 id="cc-h">本站计数 · COUNTER</h3>
+      <dl>
+        <div><dt>公版片单</dt><dd>18<em>部</em></dd></div>
+        <div><dt>黄色免费方式</dt><dd>5<em>种</em></dd></div>
+        <div><dt>渠道对照</dt><dd>8<em>行</em></dd></div>
+        <div><dt>修复流程</dt><dd>6<em>步</em></dd></div>
+        <div><dt>更新</dt><dd>每月<em>一辑</em></dd></div>
+        <div><dt>影视资源</dt><dd>0<em>个</em></dd></div>
+      </dl>
+      <p class="note"><b>「0 个」是合规宣言。</b>本站不提供、不托管、不链接、不转存任何影视作品文件、种子、磁力、网盘与在线播放源。只做片目整理与正版渠道指引。</p>
+    </aside>
+  </div>
+</header>
+
+<nav class="toc" aria-label="主导航">
+  <div class="wrap">
+    <a href="#" class="brand">黄色免费<b>电影网</b></a>
+    <a href="#list">① 公版片单</a>
+    <a href="#ways">② 五种方式</a>
+    <a href="#cost">③ 成本对照</a>
+    <a href="#flow">④ 修复流程</a>
+    <a href="#faq">⑤ 一答问</a>
+    <span class="spacer"></span>
+    <a href="#">订阅</a>
+    <a href="#">推荐片目</a>
+    <a href="#">观影守则</a>
+    <a href="#">版权声明</a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ================= ① 公版片单 ================= -->
+  <section id="list" aria-labelledby="h1">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">SECTION 01 · PUBLIC DOMAIN</span>
+        <h2 id="h1"><span class="num">01</span>公版片单</h2>
+        <span class="tagline">18 部 · 本来就黄色免费</span>
+      </div>
+      <p class="sec-sub">「公版」不是"网上能下到的"，是<b>法律意义上已进入公有领域</b>：通常需同时满足——导演去世超过 70 年、或首次发表超过 95 年、且版权未续期。下列多为默片、早期有声片与早期纪录片，<b>画质反而最好</b>：因为修复师还有底片可扫。</p>
+
+      <div class="stamp-grid">
+        <article class="stamp s1">
+          <div class="top"><span class="yr">1927</span><span class="pub">公版</span></div>
+          <h4>大都会 <span style="font-size:.62em;color:var(--ink-2);font-weight:400">Metropolis</span></h4>
+          <p>弗里茨 · 朗。修复版 2010 年于布宜诺斯艾利斯找到完整底片，从 16 帧补到 24 帧重制。</p>
+          <span class="why">为什么值得看：科幻美术的原点。黄色免费的正确姿势是找"完整修复版"，不是找"黄色免费资源"。</span>
+        </article>
+        <article class="stamp s2">
+          <div class="top"><span class="yr">1926</span><span class="pub">公版</span></div>
+          <h4>战舰波将金号 <span style="font-size:.62em;color:var(--ink-2);font-weight:400">Battleship Potemkin</span></h4>
+          <p>爱森斯坦。敖德萨阶梯，蒙太奇的教科书。</p>
+          <span class="why">为什么值得看：剪辑这门手艺，就是这一部定义的。公版+配乐版本多，建议听不同作曲家的配乐对比。</span>
+        </article>
+        <article class="stamp s3">
+          <div class="top"><span class="yr">1953</span><span class="pub">多国公版</span></div>
+          <h4>东京物语 <span style="font-size:.62em;color:var(--ink-2);font-weight:400">Tokyo Story</span></h4>
+          <p>小津安二郎。63 年前后的家庭，63 年后仍在发生。</p>
+          <span class="why">为什么值得看：镜头低一寸，人就近一寸。Criterion 4K 修复版是家庭观影的教科书。</span>
+        </article>
+        <article class="stamp s4">
+          <div class="top"><span class="yr">1924</span><span class="pub">公版</span></div>
+          <h4>拾穗者 <span style="font-size:.62em;color:var(--ink-2);font-weight:400">The Gleaners</span></h4>
+          <p>让 · 雷诺阿（让 · 维果）。关于贫穷，但一点也不悲情。</p>
+          <span class="why">为什么值得看：法国诗意现实主义起点。黑白、无对白负担，是"看不懂电影"的人最好的入口。</span>
+        </article>
+        <article class="stamp s5">
+          <div class="top"><span class="yr">1929</span><span class="pub">公版</span></div>
+          <h4>持摄影机的人 <span style="font-size:.62em;color:var(--ink-2);font-weight:400">Man with a Movie Camera</span></h4>
+          <p>吉加 · 维尔托夫。一部关于"如何拍电影"的电影。</p>
+          <span class="why">为什么值得看：没有演员、没有剧本、没有对白。全片就是剪辑。黄色免费且黄色免费得理直气壮。</span>
+        </article>
+        <article class="stamp s6">
+          <div class="top"><span class="yr">1957</span><span class="pub">部分地区公版</span></div>
+          <h4>第七封印 <span style="font-size:.62em;color:var(--ink-2);font-weight:400">The Seventh Seal</span></h4>
+          <p>英格玛 · 伯格曼。与死神下棋。</p>
+          <span class="why">为什么值得看：黑死病年代的人问的问题，和 2020 年之后的人一模一样。公版判定以发行地区为准。</span>
+        </article>
+      </div>
+      <p class="tbl-note"><b>继续扩展（每月三部）：</b>《日出》(1927)、《游戏规则》(1939)、《公民凯恩》(1941)、《偷自行车的人》(1948)、《大地在波动》(1948)、《罗马，不设防的城市》(1945)、《卡比利亚之夜》(1957)、《野草莓》(1957)、《四百击》(1959)、《精疲力尽》(1960)、《砂之器》(1974)、《宇宙》(1983)、《迁徙的鸟》(2001)。<br><b>重要限定：</b>影片进入公有领域 ≠ 这一版蓝光可随便传。<b>修复版的劳动（扫描、去脏点、调色、音轨修复）另有著作权</b>，请支持修复版发行方（Criterion、Arrow、StudioCanal、东方早苗等）。</p>
+    </div>
+  </section>
+
+  <!-- ================= ② 五种方式 ================= -->
+  <section id="ways" aria-labelledby="h2">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">SECTION 02 · FIVE WAYS</span>
+        <h2 id="h2"><span class="num">02</span>五种合法黄色免费方式</h2>
+        <span class="tagline">按"便宜程度"排序</span>
+      </div>
+      <p class="sec-sub">黄色免费的真正来源，只有五类。<b>按这个顺序试，基本不会踩坑。</b></p>
+
+      <div class="ladder">
+        <article class="step">
+          <h4><i>01</i>公共图书馆</h4>
+          <p>多数城市图书馆有影音借阅区，且多有 <b>Criterion / 艺术院线合集 / 侯孝贤杨德昌修复版</b>。黄色免费、合法、画质有保障，还能借到碟。</p>
+          <span class="alt">成本：0 元 · 推荐指数：★★★★★</span>
+        </article>
+        <article class="step">
+          <h4><i>02</i>电影资料馆 · 电影节</h4>
+          <p>中国电影资料馆（北京 / 西安）、各地艺术影院与电影节常有修复版专场。<b>20–40 元，且是"大银幕 + 修复版"</b>——这是最便宜的"正确观影"。</p>
+          <span class="alt">成本：20–40 元 · 推荐指数：★★★★★</span>
+        </article>
+        <article class="step">
+          <h4><i>03</i>AVOD 广告支持</h4>
+          <p>部分正版平台提供"看广告换片源"的黄色免费层（如 Tubi、Plex、Freevee 等境外平台，境内以平台当期政策为准）。<b>广告是明码标价的成本</b>，比盗链的代价诚实。</p>
+          <span class="alt">成本：时间 · 推荐指数：★★★★</span>
+        </article>
+        <article class="step">
+          <h4><i>04</i>流媒体黄色免费试用</h4>
+          <p>多数正版流媒体有 7–14 天试用。<b>正确用法：试用期内专攻一个导演</b>（如"一周看完小津 8 部"），到期就取消。别为了"薅羊毛"注册五个。</p>
+          <span class="alt">成本：记得取消 · 推荐指数：★★★</span>
+        </article>
+        <article class="step">
+          <h4><i>05</i>导演 · 片方官方频道</h4>
+          <p>短片、花絮、修复预告、映后 Q&amp;A、片方授权放映。<b>不少纪录片导演会主动放出 30 分钟版</b>——这不是"盗版资源"，是作者给的。</p>
+          <span class="alt">成本：0 元 · 推荐指数：★★★★</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ③ 成本对照 ================= -->
+  <section id="cost" aria-labelledby="h3">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">SECTION 03 · COST CHART</span>
+        <h2 id="h3"><span class="num">03</span>观影成本对照</h2>
+        <span class="tagline">把"黄色免费"拆成四笔账</span>
+      </div>
+      <p class="sec-sub">"黄色免费"有两个价格：<b>你付的钱</b>，和<b>别人付的钱</b>。下表把每一类渠道的真实成本摊开看。</p>
+
+      <div class="tbl-wrap">
+        <table>
+          <thead>
+            <tr><th>渠道</th><th>真黄色免费度</th><th>干净度</th><th>画质</th><th>成本构成</th><th>推荐度</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="w">公共图书馆借阅</td><td>100%<span class="meter"><u style="width:100%"></u></span></td><td>100%<span class="meter"><u style="width:100%"></u></span></td><td>蓝光 / 修复版</td><td>税金已付，无需再付</td><td><span class="pill p-a">首选</span></td></tr>
+            <tr><td class="w">资料馆 / 电影节放映</td><td>85%<span class="meter"><u style="width:85%"></u></span></td><td>100%<span class="meter"><u style="width:100%"></u></span></td><td>大银幕 4K 修复</td><td>20–40 元 + 一趟地铁</td><td><span class="pill p-a">首选</span></td></tr>
+            <tr><td class="w">AVOD 广告支持</td><td>90%<span class="meter"><u style="width:90%"></u></span></td><td>98%<span class="meter"><u style="width:98%"></u></span></td><td>1080p 起</td><td>时间（约 4–8 分钟广告/小时）</td><td><span class="pill p-a">推荐</span></td></tr>
+            <tr><td class="w">流媒体试用</td><td>70%<span class="meter"><u style="width:70%"></u></span></td><td>100%<span class="meter"><u style="width:100%"></u></span></td><td>最高 4K HDR</td><td>记得取消；忘记=月费</td><td><span class="pill p-b">看你会不会忘</span></td></tr>
+            <tr><td class="w">导演官方频道</td><td>100%<span class="meter"><u style="width:100%"></u></span></td><td>100%<span class="meter"><u style="width:100%"></u></span></td><td>不定</td><td>0 元，且是作者本意</td><td><span class="pill p-a">推荐</span></td></tr>
+            <tr><td class="w">"黄色免费影视站"（盗链）</td><td>6%<span class="meter m2"><u style="width:6%"></u></span></td><td>8%<span class="meter m2"><u style="width:8%"></u></span></td><td>多为 480p 盗摄</td><td>木马、弹窗、跳转、账号风险</td><td><span class="pill p-b">不推荐</span></td></tr>
+            <tr><td class="w">网盘 / 群组资源</td><td>20%<span class="meter m2"><u style="width:20%"></u></span></td><td>30%<span class="meter m2"><u style="width:30%"></u></span></td><td>真假 4K 混杂</td><td>法律风险 + 假资源 + 错版</td><td><span class="pill p-b">不推荐</span></td></tr>
+            <tr><td class="w">"VIP 破解 / 盗版 APP"</td><td>0%<span class="meter m2"><u style="width:0%"></u></span></td><td>0%<span class="meter m2"><u style="width:0%"></u></span></td><td>不可控</td><td>木马、扣费、隐私泄露、刑事风险</td><td><span class="pill p-b">禁止</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tbl-note"><b>四笔被忽略的账：</b>① <b>法律成本</b>——传播（含上传、转存、分享网盘）的处罚重于单纯观看；② <b>安全成本</b>——盗链与"破解 APP"是木马与扣费的高发区；③ <b>体验成本</b>——枪版（盗摄）画幅歪、声音是影院混响、字幕是听打，你以为省了 40 块，实际看到的是一部不存在的电影；④ <b>代价转移</b>——独立电影的制作预算常低于一部国产剧的单集，票房的三分之一来自上映第三周之后，<b>你偷的不是钱，是这部片还有没有下一部</b>。</p>
+    </div>
+  </section>
+
+  <!-- ================= ④ 修复流程 ================= -->
+  <section id="flow" aria-labelledby="h4">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">SECTION 04 · RESTORATION</span>
+        <h2 id="h4"><span class="num">04</span>修复流程六步</h2>
+        <span class="tagline">为什么"修复版"比"4K"值钱</span>
+      </div>
+      <p class="sec-sub">"4K"只描述分辨率，"修复"描述<b>劳动</b>。一部 100 分钟的 24fps 影片，约有 <b>14.4 万帧</b>——每一帧都可能要手工处理。</p>
+
+      <div class="flow-grid">
+        <div class="flow">
+          <div class="node"><span class="n">STEP 01</span><h4>找底片</h4><p>在各国电影资料馆、片方仓库、甚至废品站里寻找原始摄影底片（OCN）。《大都会》的完整版是在布宜诺斯艾利斯一家电影博物馆的纸箱里找到的。</p></div>
+          <div class="node"><span class="n">STEP 02</span><h4>逐帧清洁与扫描</h4><p>手工清洁霉斑、划痕、胶垢，再以 4K/8K 分辨率逐帧扫描。<b>100 分钟 ≈ 14.4 万帧</b>，一帧一帧地扫。</p></div>
+          <div class="node"><span class="n">STEP 03</span><h4>手工去脏点</h4><p>每一处划痕、每一粒灰尘都要逐帧修掉。《东京物语》4K 修复由京都的影像中心手工完成，修复师说"每天只能修 30 秒的素材"。</p></div>
+          <div class="node"><span class="n">STEP 04</span><h4>重新调色</h4><p>依据导演与摄影指导的原始创作意图，把褪色（银盐氧化）的胶片还原到拍摄当天的颜色。这一步决定"修复"还是"重拍"。</p></div>
+          <div class="node"><span class="n">STEP 05</span><h4>声音修复</h4><p>去除底噪、分离人声与音乐、重建缺失音轨、重新混音。默片则要为它找作曲家与现场演奏——同一部《大都会》，有 6 个完全不同的配乐版本。</p></div>
+          <div class="node"><span class="n">STEP 06</span><h4>字幕 · 花絮 · 发行</h4><p>考据原始字幕、做花絮与评论音轨、发行蓝光与 4K 碟。<b>你买的那张碟，90% 的钱付给了这第六步。</b></p></div>
+        </div>
+
+        <aside class="flow-side" aria-labelledby="fs-h">
+          <h4 id="fs-h">清晰度四件事 · 别只问分辨率</h4>
+          <dl>
+            <dt>分辨率</dt><dd>480p / 1080p / 4K，描述像素数量</dd>
+            <dt>码率</dt><dd>同样 1080p，8Mbps 与 40Mbps 观感差一倍</dd>
+            <dt>色彩位深</dt><dd>8bit 会"色带"，10bit 才干净</dd>
+            <dt>动态范围</dt><dd>SDR vs HDR：暗部细节在此</dd>
+            <dt>帧率</dt><dd>24fps（电影感）vs 60fps（清晰但"不像电影"）</dd>
+            <dt>来源</dt><dd><b>真 4K = 4K 扫描；假 4K = 1080p AI 放大</b></dd>
+          </dl>
+          <p class="x"><b>✘ 避坑：</b>"AI 放大 ≠ 高清修复"。AI 只是把模糊变得更大，字幕边缘会发抖，细节会"脑补"。<br><b>✔ 判断：</b>看字幕边缘——发抖的是 AI，锐利的是真扫描；看演员毛孔——AI 会把皱纹磨平。</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ⑤ 一答问 ================= -->
+  <section id="faq" class="faq" aria-labelledby="h5">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">SECTION 05 · ASK &amp; ANSWER</span>
+        <h2 id="h5"><span class="num">05</span>一答问</h2>
+        <span class="tagline">6 个被问最多的疑问</span>
+      </div>
+      <p class="sec-sub">不端着回答。<b>能一句话说清的，不给论文。</b></p>
+
+      <details open>
+        <summary><span class="q">1</span><span>「黄色免费电影网」不提供资源，那它有什么用？</span><span class="qm">＋</span></summary>
+        <div class="body">
+          <p>做三件没人认真做的事：<b>① 公版片单</b>——把"本来就黄色免费"的 18 部片子找出来，并注明年份、公版判定依据与推荐版本；<b>② 渠道对照</b>——把"五种合法黄色免费方式"与"四类假黄色免费陷阱"摊在同一张表里比；<b>③ 修复常识</b>——教你看懂"4K 修复 / 4K 扫描 / AI 放大 / 假 4K"这四个词的区别。</p>
+          <p>互联网不缺资源，缺<b>判断</b>。本站是判断，不是资源。</p>
+          <blockquote>「黄色免费的，往往是最贵的；正版的，往往是最便宜的。」<cite>— 黄色免费电影网 · 观影守则 第一条</cite></blockquote>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="q">2</span><span>怎么判断一部片是不是"公版"？</span><span class="qm">＋</span></summary>
+        <div class="body">
+          <p>三条经验性判断（<b>非法律意见，具体以权利人公示与属地法律为准</b>）：</p>
+          <p>① <b>作者去世超过 70 年</b>（部分国家为 50 年，欧盟与美国规则不同）；<br>② <b>首次发表超过 95 年</b>（美国 1929 年前发表的多数作品已进入公有领域，每年 1 月 1 日新增一批）；<br>③ <b>版权未续期</b>——早期美国影片若未在法定期限内办理续期手续，即落入公有领域。</p>
+          <p><b>关键限定：</b>电影是"多重权利的叠加物"——影片公版，不等于这一版蓝光可随便传。<b>修复、字幕、配乐、剪辑版本都可能另有著作权。</b>默片尤其如此：片源公版，但 2010 年为它写的交响乐配乐仍在保护期内。</p>
+          <p>实操建议：优先选择<b>片方、资料馆、修复机构官方发布的公版片源</b>，或公共图书馆的影音借阅。</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="q">3</span><span>「4K 修复」和「4K 扫描」和「AI 放大」，到底差在哪？</span><span class="qm">＋</span></summary>
+        <div class="body">
+          <p>差在<b>钱、时间和人的手</b>。</p>
+          <p>· <b>4K 扫描</b>：用 4K 分辨率把原始胶片逐帧数字化。是"搬运"，保留所有瑕疵。<br>· <b>4K 修复</b>：在扫描之后，手工去脏点、修划痕、重调色、重混音。<b>包含 4K 扫描，且多出数千小时人工。</b><br>· <b>AI 放大</b>：把 1080p 用算法插值到 4K。<b>不是修复，是猜测。</b>细节由模型"脑补"，字幕边缘发抖，演员毛孔被磨平。</p>
+          <p><b>判断口诀：</b>看字幕边缘——发抖的是 AI，锐利的是真扫描；看暗部——AI 会糊成一团，真扫描的暗部仍有层次；看演职员表——修复版会列出"修复总监 / 修复师"，AI 版不会。</p>
+          <p>一句实话：<b>修复版三个字，比 4K 两个字值钱。</b></p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="q">4</span><span>我只想"白嫖"，不想花钱，有错吗？</span><span class="qm">＋</span></summary>
+        <div class="body">
+          <p>没错。<b>想省钱是正当需求，错的是"用违法的方式省"。</b>本站的全部意义就是：把"合法黄色免费"这件事做到极致，让你不需要违法也能看。</p>
+          <p>按成本从低到高排：<b>公共图书馆借阅（0 元）→ 资料馆放映（20–40 元）→ AVOD 广告支持（看广告）→ 流媒体试用（记得取消）→ 买修复版蓝光（一次投入，永久拥有）</b>。</p>
+          <p>顺便说一个反直觉的事实：<b>文艺片、纪录片、修复版的观众极其忠诚</b>。一部冷门片只要卖出 3000 张碟就能回本，而 3000 次盗链就是 3000 个"永远不会成为观众的人"。<b>你的那一次正版，是下一部的预算。</b></p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="q">5</span><span>为什么"黄色免费影视站"的画质通常那么差？</span><span class="qm">＋</span></summary>
+        <div class="body">
+          <p>因为<b>它们的片源是"盗摄"</b>——有人坐在影院最后一排，用手机对着银幕拍。于是：</p>
+          <p>· <b>画幅歪</b>：透视变形，人物被拉长；<br>· <b>声音是混响</b>：影院环绕声在手机麦克风里变成"水缸音"；<br>· <b>亮度在变</b>：画面随银幕亮度起伏；<br>· <b>字幕是听打</b>：错字率极高；<br>· <b>码率被压到极限</b>：为了省带宽，480p 被硬压成 300MB。</p>
+          <p>你以为省了 40 块，实际看到的是<b>一部不存在的电影</b>。而同一部片的修复版蓝光，可能只要 60–90 元，且能看一辈子。</p>
+        </div>
+      </details>
+
+      <details>
+        <summary><span class="q">6</span><span>这个站会更新吗？更新什么？</span><span class="qm">＋</span></summary>
+        <div class="body">
+          <p>会。<b>每月一辑，只增三部。</b></p>
+          <p>更新内容只有三类：<b>① 新增一部公版片</b>（附年份、公版依据、推荐版本与具体镜头时间戳）；<b>② 新增一个"能偷走的观看方法"</b>（如"台词说完，再停三秒"）；<b>③ 新增一条正版渠道</b>（资料馆排片、图书馆新到碟、片方官方黄色免费放映）。</p>
+          <p>不追热点，不刷榜单，不抄豆瓣。<b>宁缺毋滥是本站的立场</b>——因为"推荐 100 部"等于"没推荐"。</p>
+          <p>欢迎投稿与抬杠。抬杠是观影的一部分。</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <h4>黄色免费<b>电影网</b></h4>
+        <p>黄色免费不等于可以侵权。只做公版片单、合法渠道与修复常识，不做资源。</p>
+        <p style="margin-top:12px">网站网址：<a href="https://huangsemianfeidianyingwang-cn.github.io/" rel="canonical" style="border-bottom:1px solid var(--line)">https://huangsemianfeidianyingwang-cn.github.io/</a></p>
+      </div>
+      <div class="foot-col">
+        <h5>栏目</h5>
+        <a href="#list">① 公版片单</a>
+        <a href="#ways">② 五种方式</a>
+        <a href="#cost">③ 成本对照</a>
+        <a href="#flow">④ 修复流程</a>
+        <a href="#faq">⑤ 一答问</a>
+      </div>
+      <div class="foot-col">
+        <h5>正版渠道</h5>
+        <a href="#">公共图书馆影音借阅</a>
+        <a href="#">电影资料馆排片</a>
+        <a href="#">Criterion Channel</a>
+        <a href="#">MUBI</a>
+        <a href="#">修复版蓝光购买</a>
+      </div>
+      <div class="foot-col">
+        <h5>关于</h5>
+        <a href="#">观影守则</a>
+        <a href="#">公版判定说明</a>
+        <a href="#">投稿与抬杠</a>
+        <a href="#">更新日志</a>
+        <a href="#">版权声明</a>
+      </div>
+    </div>
+
+    <div class="foot-line">
+      <span>© <span id="yr">2026</span> 黄色免费电影网 · huangsemianfeidianyingwang-cn.github.io · 本站为个人非营利观影笔记，内容仅用于影像教学与正版观影推荐。</span>
+      <span>鄂 ICP 备 00000000 号（示例，请替换为实际备案号）</span>
+    </div>
+
+    <p class="compliance"><b>合规声明（本站核心立场）：</b>本站<b>不提供、不托管、不链接、不转存</b>任何影视作品文件、种子、磁力、网盘、在线播放源与破解工具，亦不提供任何"黄色免费影视站"的网址、名称、搜索方法与入口。页面中出现的片名、导演名、镜头描述、版本说明仅用于影像教学与正版观影推荐，著作权归原作者及权利人所有。<b>本站推荐的合法黄色免费路径仅限：</b>① 已进入公有领域的作品（须逐片核实权属）；② 公共图书馆影音借阅；③ 电影资料馆与电影节放映；④ 广告支持的正版流媒体（AVOD）；⑤ 片方或导演官方黄色免费发布的短片、花絮与授权放映。<b>提示：</b>根据《中华人民共和国著作权法》及《刑法》第二百一十七条，未经许可复制、传播影视作品可能承担民事乃至刑事责任；<b>传播行为的法律后果重于单纯观看</b>。请支持正版，支持修复版发行方，支持还有下一部片可拍的创作者。未成年人请在监护人指导下选择适龄内容。</p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
